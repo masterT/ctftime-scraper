@@ -29,6 +29,17 @@ ctftime.getTeam(teamId)
   .catch(error => console.error(error))
 ```
 
+### get writeup
+
+Return a Promise that resolve with the [Writeup ](lib/schemas/writeup.json).
+
+```js
+const ctftime = require('ctftime-scraper')
+
+ctftime.getWriteup(writeupId)
+  .then(writeup => console.log(writeup))
+  .catch(error => console.error(error))
+```
 
 ## developement
 

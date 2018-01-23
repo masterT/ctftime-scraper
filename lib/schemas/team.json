@@ -38,6 +38,9 @@
           "url": {
             "type": "string",
             "format": "uri"
+          },
+          "id": {
+            "type": "string"
           }
         },
         "required": [
@@ -45,7 +48,8 @@
           "eventUrl",
           "taskName",
           "taskUrl",
-          "url"
+          "url",
+          "id"
         ]
       }
     }
