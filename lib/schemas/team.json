@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "writeups": {
+      "type": "array",
+      "item": {
+        "type": "object",
+        "properties": {
+          "eventName": {
+            "type": "string"
+          },
+          "eventUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "taskName": {
+            "type": "string"
+          },
+          "taskUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "eventName",
+          "eventUrl",
+          "taskName",
+          "taskUrl",
+          "url"
+        ]
+      }
+    }
+  },
+  "required": [
+    "name",
+    "url",
+    "description",
+    "country",
+    "writeups"
+  ]
+}

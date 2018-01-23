@@ -1,0 +1,29 @@
+{
+  "name": "ctftime-scraper",
+  "version": "1.0.0",
+  "description": "A scraper for https://ctftime.org/",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard && jasmine",
+    "linter": "standard",
+    "linter-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterT/ctftime-scraper.git"
+  },
+  "keywords": [
+    "scraper",
+    "ctftime",
+    "ctf"
+  ],
+  "author": "Simon Thiboutôt <salut@simonthiboutot.com> (http://simonthiboutot.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.9.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "yolo-scraper": "^0.2.0"
+  }
+}
