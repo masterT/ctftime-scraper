@@ -1,5 +1,7 @@
 # ctftime-scraper
 
+[![Build Status](https://travis-ci.org/masterT/ctftime-scraper.svg?branch=master)](https://travis-ci.org/masterT/ctftime-scraper)
+
 > A scraper for https://ctftime.org/
 
 ## requirements
