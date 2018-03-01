@@ -65,6 +65,8 @@ npm run linter-fix
 
 ## test
 
+Feature tests are run _daily_, thank to Travis Ci new feature [CRON Jobs](https://docs.travis-ci.com/user/cron-jobs/). This way we know if the scraper is ever broken.
+
 Run the tests:
 
 ```shell
