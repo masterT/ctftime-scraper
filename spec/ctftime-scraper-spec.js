@@ -7,7 +7,7 @@ describe('ctftime-scraper', () => {
       ctftime.getTeam('32119')
         .then((team) => {
           expect(team.name).toEqual('The Northern Coalition')
-          expect(team.url).toEqual('https://ctftime.org/team/32119/')
+          expect(team.url).toEqual('https://ctftime.org/team/32119')
           expect(team.description).toContain('students')
           expect(team.description).toContain('Québec')
           expect(team.country).toContain('CA')
