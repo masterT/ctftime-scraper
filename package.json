@@ -1,6 +1,6 @@
 {
   "name": "ctftime-scraper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A scraper for https://ctftime.org/",
   "main": "lib/index.js",
   "scripts": {
