@@ -6,6 +6,7 @@ describe('ctftime-scraper', () => {
     it('scrapes the team', (done) => {
       ctftime.getTeam('32119')
         .then((team) => {
+          console.log(team)
           expect(team.name).toEqual('The Northern Coalition')
           expect(team.url).toEqual('https://ctftime.org/team/32119')
           expect(team.description).toContain('students')
